@@ -1,18 +1,14 @@
-# motd_ascii_art
-# Basic guide to color the ASCII art
-# Basic coloring with "tput xterm"
+# Basic guide to color and change your ASCII art with "tput xterm" and PS1 Shell
 
 # Set text color "foreground" with setaf
 echo "$(tput -T xterm setaf 'color_number')"
 echo "$(tput -T xterm setaf 2)"
-# colors the text red
 
 # Set background color with setab
 echo "$(tput -T xterm setab 'color_number')"
 echo "$(tput -T xterm setab 6)" 
-# colors the background cyan
 
-# The basic 8 color options
+# The basic 8 color options for tput
         0 = black
         1 = red
         2 = green
@@ -21,7 +17,7 @@ echo "$(tput -T xterm setab 6)"
         5 = magenta
         6 = cyan
         7 = white
-#-----------------------------------------------------
+        
 # Using PS1 shell for bold and underlined ascii
 
 # PS1 to underline ASCII chars 
@@ -33,7 +29,6 @@ printf "\e[1m"
 # For both Bold and underlined option on one line
 printf "\e[1m\e[4m"
 
-#-----------------------------------------------------
 # Example Linux bash script "recreate the cyan horse"
 Add printf "\n" (newline) if needed
 
