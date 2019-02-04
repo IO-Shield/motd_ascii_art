@@ -37,6 +37,7 @@ printf "\e[1m\e[4m"
 echo "$(tput -T xterm setaf 6)"
 
 printf "\n"
-cat /your/path/to/ascii_art.txt
-printf "\n"
 
+cat /your/path/to/ascii_art.txt
+
+printf "\n"
