@@ -24,10 +24,10 @@ echo "$(tput -T xterm setab 6)"
 #-----------------------------------------------------
 # Using PS1 shell for bold and underlined ascii
 
-# Underlined ASCII chars
+# PS1 to underline ASCII chars 
 printf "\e[4m"
 
-# Bold text / ASCII 
+# PS1 for Bold text / ASCII 
 printf "\e[1m"
 
 # For both Bold and underlined option on one line
