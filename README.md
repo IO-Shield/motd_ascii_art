@@ -18,12 +18,10 @@ echo "$(tput -T xterm setab 6)"
         6 = cyan
         7 = white
         
-# Using PS1 shell for bold and underlined ascii
-
-# PS1 to underline ASCII chars 
+# PS1 Shell to underline ASCII chars 
 printf "\e[4m"
 
-# PS1 for Bold text / ASCII 
+# PS1 Shell for Bold text / ASCII 
 printf "\e[1m"
 
 # For both Bold and underlined option on one line
@@ -34,7 +32,10 @@ Add printf "\n" (newline) if needed
 
 #!/bin/bash
 printf "\e[1m\e[4m"
+
 echo "$(tput -T xterm setaf 6)"
+
 printf "\n"
 cat /your/path/to/ascii_art.txt
 printf "\n"
+
