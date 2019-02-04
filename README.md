@@ -1,6 +1,5 @@
 # motd_ascii_art
 # Basic guide to color the ASCII art
-#-------------------------------------------------------
 # Basic coloring with "tput xterm"
 
 # Set text color "foreground" with setaf
@@ -36,7 +35,7 @@ printf "\e[1m\e[4m"
 
 #-----------------------------------------------------
 # Example Linux bash script "recreate the cyan horse"
-# Add printf "\n" (newline) if needed
+Add printf "\n" (newline) if needed
 
 #!/bin/bash
 printf "\e[1m\e[4m"
