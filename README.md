@@ -31,6 +31,7 @@ printf "\e[1m\e[4m"
 Add printf "\n" (newline) if needed
 
 #!/bin/bash
+
 printf "\e[1m\e[4m"
 
 echo "$(tput -T xterm setaf 6)"
